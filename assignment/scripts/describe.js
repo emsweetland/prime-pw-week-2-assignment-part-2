@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable called name and set it to 'dane' as the string
+// we check if name is 'mary' (its not)
+// we console.log 'how do you do'.
 
 //CODE
 /*
@@ -45,10 +44,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable called secret
+// we make a variable called code and set it to '123' as the number
+// we check if code is '123' (it is!) secret = 'super'. code is multiplied by 2
+// we check if code is greater than  250 (it isn't)
+// we console.log 'super'
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a variable called isStudent and set it to 'true'
+// we make a variable called age and set the number to 34
+// we make a variable called zip and set the number to 55407
+// check if isStudent is true and that zip code is greater than 80000 (neither is)
+// check if isStudent is false or if age is less than 30 (neither is)
+// check if isStudent is true (it is) console.log 'welcome to prime!'
 
 //CODE
 /*
@@ -135,6 +137,8 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+// FIX - set colorTwo to purple as well
+//colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -145,6 +149,8 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - const time sets a constant, we want 2 variables.
+// let time = 4;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
@@ -160,6 +166,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - console.log messages are incorrect
+// swap 'enter' and 'no entry' messages
 if(minAge <= age) {
   console.log('no entry');
 } else {
